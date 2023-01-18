@@ -25,7 +25,7 @@ python manage.py aws_update_images
 更新程序  
 docker stop panel ＃停止当前容器  
 docker rm panel＃删除当前容器  
-容器被关闭后，先启动数据库(panel_mysql)再启动面板(panel)
+!容器被关闭后，先启动数据库(panel_mysql)再启动面板(panel)
 
 # 这些命令都是我复制粘贴的，只是排了版方便我自己粘贴到vps中，docker镜像“cdntip/panel”是作者本人的不是我自己的
 备份作者的镜像：70210220/cdntip_panel
